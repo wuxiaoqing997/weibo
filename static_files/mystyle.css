@@ -1,0 +1,155 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #393f4c;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#content{
+	background-color: #ffffff;
+	width: 500px;
+	height: 900px;
+	margin: 20px auto;
+	border-radius: 8px;
+}
+#header {
+	padding: 10px;
+}
+#header span {
+	margin-top: 18px;
+	margin-left: 10px;
+	font-size: 22px;
+}
+#header input{
+	margin-top: 16px;
+	margin-left: 8px;
+	float: left;
+	height: 22px;
+	line-height: 20px;
+	font-size: 14px;
+}
+#header ul {
+	float: left;
+	margin-left: -20px;
+	margin-top: 2px;
+}
+#header ul li {
+	display: inline-block;
+	padding: 2px;
+}
+#header ul li:hover,.select{
+	border: 1px solid #000000;
+}
+#header textarea{
+	width: 96%;
+	margin: 4px;
+	height: 120px;
+	margin-top: -10px;
+	resize: none;
+	font-size: 15px;
+}
+#submit {
+	width: 100%;
+	overflow: hidden;	
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+}
+#tips {
+	margin-right: 10px;
+	color: #afafb0;
+	font-size: 8px;
+}
+#submit button{
+	width: 120px;
+	height: 40px;
+	border-radius: 8px;
+	background-color: #aacf53;
+	box-shadow: 1px 1px #aacf53;
+	color:#ffffff;
+	line-height: 28px;
+	letter-spacing: 8px;
+	font-size: 22px;
+	text-align: center;
+}
+#middle{
+	margin-top: 45px;
+	height: 45px;
+}
+#middle div{
+	margin-top: 2px;
+	height: 45px;
+	background-color: #c0c6c9;
+	position: relative;
+}
+#middle span {
+	position: absolute;
+	display: block;
+	height: 40px;
+	width: 80px;
+	bottom: 0;
+	left: 5px;
+	background-color: #dddcd6;
+	border-radius: 5px 5px 0 0;
+	color: #fffffc;
+	line-height: 38px;
+	text-align: center;
+}
+#footer {
+	margin: 0 10px;
+	clear: both;
+	height: 550px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.contain {
+	width: 100%;
+	float: left;
+	border-bottom: 1px dashed #727171;
+	height: 80px;
+}
+.context{
+	float: right;
+	width: 90%;
+	height: 80px;
+}
+.user{
+	margin-top: 12px;
+	margin-left: 10px;
+}
+.time {
+	margin: 12px;
+	color: #949495;
+	font-size: 14px;
+}
+.contain img,.set{
+	margin-left: 8px;
+	margin-top: 12px;
+}
+.contain li {
+	height: 100%;
+	width: 100%;
+	float: left;
+	margin-top: -82px;
+	position: relative;
+	display: block;
+}
+.contain li a{
+	display: none;
+	position: absolute;
+	bottom: 5px;
+	right: 2px;
+	font-size: 12px;
+}
+.contain li:hover a
+{
+	display: block;
+	color: #c0c6c9;
+}
+.border{
+	border:1px solid #000000;
+}
